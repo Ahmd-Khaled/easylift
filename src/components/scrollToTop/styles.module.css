@@ -1,0 +1,39 @@
+.scrollToTop,
+.scrollToTopHidden {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    height: 46px;
+    width: 46px;
+    /* background-color: deepskyblue; */
+    background-color: #FF6600;
+    /* border: 2px solid #FF6600; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: #FFF;
+    cursor: pointer;
+    z-index: 1000;
+    transition: all 200ms linear;
+}
+.scrollToTopHidden {
+    display: none;
+}
+
+.scrollToTop .inner {
+    height: 80%;
+    width: 80%;
+    background-color: rgba(0,0,0,0.2);
+    background-color: #000;
+    background-color: #F2F3F5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.scrollToTop .inner .icon {
+    font-size: 24px;
+    fill: #FF6600;
+}
