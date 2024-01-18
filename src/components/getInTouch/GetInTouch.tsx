@@ -10,18 +10,18 @@ const GetInTouch = () => {
         </div>
         <div className={styles.message}>
           <div className={styles.top}>
-            <p className={styles.text}>Get In Touch</p>
-            <h2 className={styles.title}>Let’s Get in Touch</h2>
+            <p className={styles.text}>إبقى على تواصل</p>
+            <h2 className={styles.title}>دعونا الحصول على إتصال</h2>
           </div>
           <form className={styles.messageForm}>
-            <input type="text" placeholder="Your Name" />
-            <input type="email" placeholder="Email Address" />
+            <input type="text" placeholder="الإسم بالكامل" />
+            <input type="email" placeholder="البريد الإلكتروني" />
             <select className={styles.selectOption}>
-                <option>Select an option</option>
-                <option>Option 1</option>
-                <option>Option 2</option>
-                <option>Option 3</option>
-                <option>Option 4</option>
+                <option>حدد اختيارا</option>
+                <option>الإختيار الأول</option>
+                <option>الإختيار الثاني</option>
+                <option>الإختيار الثالث</option>
+                <option>الإختيار الراع</option>
             </select>
             <input type="date" placeholder="Select Date" />
             <select className={styles.selectTime}>
@@ -29,8 +29,8 @@ const GetInTouch = () => {
                 <option>12:30AM</option>
                 <option>1:00AM</option>
             </select>
-            <textarea placeholder="Your message Here" />
-            <button className={styles.submitButton}>Submit Message</button>
+            <textarea placeholder="رسالتك" />
+            <button className={styles.submitButton}>إرسال</button>
           </form>
         </div>
       </div>

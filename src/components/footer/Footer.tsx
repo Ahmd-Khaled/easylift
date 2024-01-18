@@ -1,13 +1,19 @@
-
-import { FaFacebookF, FaLinkedinIn, FaPhoneAlt, FaTwitter, FaYoutube } from "react-icons/fa";
+import {
+  FaArrowLeft,
+  FaFacebookF,
+  FaLinkedinIn,
+  FaPhoneAlt,
+  FaTwitter,
+  FaYoutube,
+} from "react-icons/fa";
 import { TbArrowBigRightFilled } from "react-icons/tb";
+import { TbArrowBigLeftFilled } from "react-icons/tb";
 import { HiOutlineMail } from "react-icons/hi";
 import { FaArrowRight, FaLocationDot } from "react-icons/fa6";
 import { BsClock } from "react-icons/bs";
-import { Col, Container, Row } from "react-bootstrap"
+import { Col, Container, Row } from "react-bootstrap";
 
-import styles from "./styles.module.css"
-
+import styles from "./styles.module.css";
 
 const footer = () => {
   return (
@@ -17,22 +23,26 @@ const footer = () => {
           <Row>
             <div className={styles.subscribe}>
               <div className={styles.logo}>
-                <img src="/images/footer-logo.png" alt="logo" />
+                <img src="/images/easy-logo-transparent.png" alt="logo" className={styles.footerLogo} />
               </div>
               <h2 className={styles.subscTitle}>
-                SUBSCRIBE OUR NEWSLETTER
-                <br />
-                FORLATEST UPDATES
+                <span>إشترك في النشرة الإخبارية لدينا</span>
+                <span>للحصول على آخر التحديثات</span>
               </h2>
               <form className={styles.subscForm}>
-                <input type="email" placeholder="Email Address" />
-                <button>Subscribe</button>
+                <input type="email" placeholder="البريد الإلكتروني" />
+                <button>إشترك</button>
               </form>
             </div>
             <div className={styles.links}>
               <div className={styles.box}>
-                <h3 className={styles.fTitle}>ABOUT COMPANY</h3>
-                <p className={styles.fText}>Centric aplications productize before front end vortals visualize front end is results and value added</p>
+                <h3 className={styles.fTitle}>عن الشركة</h3>
+                <p className={styles.fText}>
+                  مؤسسه الأسهل للمصاعد
+                  <br />
+                  صيانه وأعطال جميع أنواع المصاعد عقود سنوي ونصف سنوي وزيارات
+                  قطع الغيار الإيطالي والتركي 
+                </p>
                 <div className={styles.social}>
                   <a href="/">
                     <FaFacebookF />
@@ -50,49 +60,49 @@ const footer = () => {
               </div>
               <div className={styles.box}>
                 <div className={styles.linksList}>
-                  <h3 className={styles.fTitle}>USEFUL LINKS</h3>
+                  <h3 className={styles.fTitle}>روابط مفيدة</h3>
                   <ul className={styles.fList}>
                     <li className={styles.fItem}>
                       <a href="/">
-                        <TbArrowBigRightFilled />
-                        <span>About Us</span>
+                        <TbArrowBigLeftFilled />
+                        <span>معلومات عنا</span>
                       </a>
                     </li>
                     <li className={styles.fItem}>
                       <a href="/">
-                        <TbArrowBigRightFilled />
-                        <span> Our Gallery</span>
+                        <TbArrowBigLeftFilled />
+                        <span>معرضنا</span>
                       </a>
                     </li>
                     <li className={styles.fItem}>
                       <a href="/">
-                        <TbArrowBigRightFilled />
-                        <span>Our Services</span>
+                        <TbArrowBigLeftFilled />
+                        <span>خدماتنا</span>
                       </a>
                     </li>
                     <li className={styles.fItem}>
                       <a href="/">
-                        <TbArrowBigRightFilled />
-                        <span>Our Team</span>
+                        <TbArrowBigLeftFilled />
+                        <span>فريقنا</span>
                       </a>
                     </li>
                     <li className={styles.fItem}>
                       <a href="/">
-                        <TbArrowBigRightFilled />
-                        <span>Contact Us</span>
+                        <TbArrowBigLeftFilled />
+                        <span>إتصل بنا</span>
                       </a>
                     </li>
                   </ul>
                 </div>
                 <div className={styles.linksList}>
-                  <h3 className={styles.fTitle}>CONTACT US</h3>
+                  <h3 className={styles.fTitle}>إتصل بنا</h3>
                   <ul className={styles.fList}>
                     <li className={styles.fItem}>
                       <a href="/">
                         <div className={styles.icon}>
                           <FaPhoneAlt />
                         </div>
-                        <span>+254 (98) 2156 213</span>
+                        <span>0556943009</span>
                       </a>
                     </li>
                     <li className={styles.fItem}>
@@ -100,7 +110,7 @@ const footer = () => {
                         <div className={styles.icon}>
                           <FaPhoneAlt />
                         </div>
-                        <span>+254 (98) 2156 213</span>
+                        <span>0556943009</span>
                       </a>
                     </li>
                     <li className={styles.fItem}>
@@ -117,9 +127,9 @@ const footer = () => {
                           <FaLocationDot />
                         </div>
                         <span>
-                          25 Helano, 145 City Road
+                          الدمام الخضريه
                           <br />
-                          New Town DD14, USA
+                          طريق الظهران الجبيل السريع 
                         </span>
                       </a>
                     </li>
@@ -127,20 +137,22 @@ const footer = () => {
                 </div>
               </div>
               <div className={styles.box}>
-                <h3 className={styles.fTitle}>POPULAR POSTS</h3>
+                <h3 className={styles.fTitle}>منشورات شائعة</h3>
                 <div className={styles.post}>
                   <div className={styles.image}>
                     <img src="/images/footer-post-1.png" alt="post-img" />
-                  </div>              
+                  </div>
                   <div className={styles.postDetails}>
                     <div className={styles.time}>
                       <BsClock />
                       <span>15th April, 2022</span>
                     </div>
-                    <a href="/" className={styles.postTitle}>Building Renovation Tasks</a>
+                    <a href="/" className={styles.postTitle}>
+                    مهام تجديد المباني
+                    </a>
                     <a href="/" className={styles.readMore}>
-                      <span>READ MORE</span>
-                      <FaArrowRight />
+                      <span>اقرأ أكثر</span>
+                      <FaArrowLeft  />
                     </a>
                   </div>
                 </div>
@@ -153,10 +165,12 @@ const footer = () => {
                       <BsClock />
                       <span>15th April, 2022</span>
                     </div>
-                    <h4 className={styles.postTitle}>Building Renovation Tasks</h4>
+                    <h4 className={styles.postTitle}>
+                    مهام تجديد المباني
+                    </h4>
                     <a href="/" className={styles.readMore}>
-                      <span>READ MORE</span>
-                      <FaArrowRight />
+                      <span>اقرأ أكثر</span>
+                      <FaArrowLeft  />
                     </a>
                   </div>
                 </div>
@@ -167,11 +181,11 @@ const footer = () => {
       </div>
       <div className={styles.copyRights}>
         <div className="mainContainer">
-          <p>Copyright 2023 Elevate. All Rights Reserved.</p>
+          <p>حقوق النشر 2024 مؤسسه الأسهل للمصاعد. كل الحقوق محفوظة.</p>
         </div>
       </div>
     </footer>
-  )
-}
+  );
+};
 
-export default footer
+export default footer;

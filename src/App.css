@@ -36,8 +36,10 @@
   --s-extra-bold: 800;
   --s-black: 900;
   --transition: 0.3s;
-  --font-primary: "Titillium Web", sans-serif;
-  --font-secondary: "Archivo", sans-serif;
+  --font-primary: 'Cairo', sans-serif;
+  --font-secondary: 'Cairo', sans-serif;
+  /* --font-primary: "Titillium Web", sans-serif;
+  --font-secondary: "Archivo", sans-serif; */
   --font-size-b1: 16px;
   --font-size-b2: 16px;
   --font-size-b3: 22px;
@@ -62,13 +64,14 @@
 body {
   font-size: var(--font-size-b1);
   line-height: var(--line-height-b1);
-  font-family: "Archivo", sans-serif;
+  /* font-family: "Archivo", sans-serif; */
+  font-family: 'Cairo', sans-serif;
   color: var(--color-body);
   font-weight: var(--p-regular);
   position: relative;
   overflow-x: hidden;
   background: #F2F3F5;
-  /* direction:ltr; */
+  direction: rtl;
 }
 
 h1,
