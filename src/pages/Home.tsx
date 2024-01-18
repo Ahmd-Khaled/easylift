@@ -12,7 +12,7 @@ import Blog from "../components/blog/Blog";
 
 const Home = () => {
   return (
-    <Helmet title="Home">
+    <Helmet title=" | الرئيسية">
       <div className="banner-main-area">
         <Banner />
       </div>
