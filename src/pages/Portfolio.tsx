@@ -194,8 +194,6 @@ const Portfolio = () => {
           </Row>
         </Container>
       </section>
-
-      <LatestProjects />
     </>
   )
 }
