@@ -62,10 +62,10 @@
 }
 
 body {
+  font-family: 'Cairo', sans-serif;
   font-size: var(--font-size-b1);
   line-height: var(--line-height-b1);
   /* font-family: "Archivo", sans-serif; */
-  font-family: 'Cairo', sans-serif;
   color: var(--color-body);
   font-weight: var(--p-regular);
   position: relative;

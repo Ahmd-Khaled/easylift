@@ -10,33 +10,33 @@ const LatestProjects = () => {
         <Row>
           <div className={styles.container}>
             <div className={styles.top}>
-              <p className={styles.smTitle}>LATEST PROJECTS</p>
+              <p className={styles.smTitle}>أحدث المشاريع</p>
               <h3 className={styles.title}>
-                EXCELLENCE DRIVEN FOR GETTING
+              التميز مدفوع للحصول على
                 <br />
-                UNRIVALED RESULTS.
+               نتائج لا مثيل لها.
               </h3>
             </div>
             <ul className={styles.projectsList}>
               <ProjectItem
                 img="proj-icon-01.svg"
                 num={3526}
-                text="Tons Of Customers"
+                text="الكثير من العملاء"
               />
               <ProjectItem
                 img="proj-icon-02.svg"
                 num={3024}
-                text="Compleated Project"
+                text="مشروع مكتمل"
               />
               <ProjectItem
                 img="proj-icon-03.svg"
                 num={325}
-                text="Team Members"
+                text="أعضاء الفريق"
               />
               <ProjectItem
                 img="proj-icon-04.svg"
                 num={56}
-                text="Upcoming Projects"
+                text="المشاريع القادمة"
               />
             </ul>
           </div>
@@ -68,8 +68,8 @@ export const ProjectItem = ({ img, num, text }: projectType) => {
           <img src={`/images/${img}`} alt="icon" />
         </div>
         <h2 className={styles.projNum}>
-          <span>{num}</span>
           <PiPlusBold />
+          <span>{num}</span>
         </h2>
         <p className={styles.projText}>{text}</p>
       </div>

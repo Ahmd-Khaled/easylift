@@ -35,7 +35,7 @@ const Home = () => {
 
       {/* ------------Ahmed Part-------------------- */}
       
-      {/* <LatestProjects />    */}
+      <LatestProjects />   
       <Container>
           <Row>
             <Blog />
