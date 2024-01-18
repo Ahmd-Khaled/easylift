@@ -41,6 +41,7 @@
     line-height: 1.24;
     word-break: break-word;
     font-family: "Titillium Web", sans-serif;
+    font-family: var(--font-primary);
     line-height: 1.4074;
     color: var(--color-heading-1);
 }
@@ -95,6 +96,7 @@
     line-height: 1.24;
     word-break: break-word;
     font-family: "Titillium Web", sans-serif;
+    font-family: var(--font-primary);
     line-height: 1.4074;
     color: var(--color-heading-1);
 }
@@ -158,7 +160,8 @@
 }
 
 .title {
-    margin-bottom: 5rem;
+    padding: 3rem;
+    margin-top: 3rem;
     text-align: center !important;
 }
 

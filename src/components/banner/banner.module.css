@@ -20,7 +20,7 @@
     padding: 110px 60px;
     position: absolute;
     top: 0;
-    left: 3%;
+    right: 3%;
     text-align: start;
     color: #fff;
     z-index: 1;
@@ -28,8 +28,9 @@
 
 .heading h5 {
     letter-spacing: 0.1em;
+    letter-spacing: 1px;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 28px;
     font-family: var(--font-primary);
     color: var(--color-white);
@@ -43,12 +44,15 @@
     font-weight: 700;
     font-size: 60px;
     line-height: 85px;
+    font-size: 50px;
+    line-height: 70px;
     text-transform: uppercase;
     color: #fff;
     margin-bottom: 35px;
     /* opacity: 0; */
     transition-delay: 1s;
     font-family: "Titillium Web", sans-serif;
+    font-family: var(--font-primary);
 }
 
 .contact {
@@ -182,7 +186,7 @@
         top: -20px;
     }
     .heading h2 {
-        font-size: 33px;
+        font-size: 30px;
         line-height: 38px;
     }
 }

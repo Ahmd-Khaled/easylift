@@ -1,3 +1,5 @@
+
+
 .serviceCart {
     background: #FFFFFF;
     border-radius: 5px;
@@ -53,6 +55,7 @@
     font-size: var(--h5);
     line-height: 1.24;
     font-family: "Titillium Web", sans-serif;
+    font-family: var(--font-primary);
     color: var(--color-heading-1);
     font-weight: var(--s-bold);
     transition: var(--transition);
