@@ -82,7 +82,7 @@ const navBar = () => {
                     <p>توصيل سريع وإرجاع مجاني في غضون 24 ساعة</p>
                     <div className={styles["icon"]}>
                       <MdElectricBolt
-                        color="#FF6600"
+                        color="#5187C3"
                         size="20px"
                         className="ms-3"
                       />

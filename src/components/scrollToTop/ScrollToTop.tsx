@@ -52,7 +52,7 @@ const ScrollToTop = () => {
       className={
         showScrollToTopBTN ? styles.scrollToTop : styles.scrollToTopHidden
       }
-      style={{background: `conic-gradient(#FF6600 ${percentVal}%, white ${percentVal}%)`}}
+      style={{background: `conic-gradient(#5187C3 ${percentVal}%, white ${percentVal}%)`}}
     >
       <div className={styles.inner}>
         <FaArrowUp className={styles.icon} />

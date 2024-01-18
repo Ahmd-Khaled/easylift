@@ -6,7 +6,7 @@
     height: 46px;
     width: 46px;
     /* background-color: deepskyblue; */
-    background-color: #FF6600;
+    background-color: var(--color-primary);
     /* border: 2px solid #FF6600; */
     display: flex;
     justify-content: center;
@@ -35,5 +35,5 @@
 
 .scrollToTop .inner .icon {
     font-size: 24px;
-    fill: #FF6600;
+    fill: var(--color-primary);
 }

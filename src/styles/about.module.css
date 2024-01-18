@@ -83,7 +83,7 @@
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.1em;
-    color: #FF6600;
+    color: var(--color-primary);
     text-transform: uppercase;
     font-family: var(--font-primary);
 }

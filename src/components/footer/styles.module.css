@@ -272,7 +272,7 @@
     display: flex;
     width: 25px;
     height: 25px;
-    background: #FF6600;
+    background: var(--color-primary);
     align-items: center;
     justify-content: center;
     font-weight: 900;
@@ -284,11 +284,11 @@
 }
 
 .box .linksList .fList .fItem:hover a span {
-    color: #FF6600;;
+    color: var(--color-primary);
 }
 
 .box .linksList .fList .fItem:hover a > svg {
-    color: #FF6600;;
+    color: var(--color-primary);
 }
 
 .box .post {
@@ -341,11 +341,11 @@
 }
 
 .box .post .postDetails .postTitle:hover {
-    color: #FF6600;
+    color: var(--color-primary);
 }
 
 .box .post .postDetails .readMore {
-    color: #FF6600;
+    color: var(--color-primary);
     text-transform: uppercase;
     font-weight: 600;
     font-size: 14px;

@@ -4,6 +4,7 @@
 /*  css variables */
 :root {
   --color-primary: #FF6600;
+  --color-primary: #5187C3;
   --color-secondary: #0C0A0A;
   --color-body: #6E777D;
   --color-heading-1: #0C0A0A;
@@ -106,7 +107,7 @@ section {
   font-size: 26px;
   line-height: 24px;
   letter-spacing: 0.1em;
-  color: #FF6600;
+  color: var(--color-primary);
   text-transform: uppercase;
   font-family: var(--font-primary);
 }
